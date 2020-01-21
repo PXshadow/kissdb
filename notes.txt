@@ -1,0 +1,13 @@
+no distinction between insert and replace in KISSS
+
+Hash table size is a space/speed trade-off parameter.
+ Larger hash tables will reduce collisions and speed things up a bit, at the expense of memory and disk space.
+  A good size is usually about 1/2 the average number of entries you expect.
+
+
+  Features:
+  Very space-efficient (on disk) if small hash tables are used
+
+  Limitations:
+  No indexes
+  Add/update only, no delete
